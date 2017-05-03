@@ -2,6 +2,6 @@
   "extends": "tslint-config-leomax",
   "rules": {
     "variable-name": false,
-    "ordered-imports": false
+    "ordered-imports": true
   }
 }

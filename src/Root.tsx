@@ -1,16 +1,23 @@
 import * as React from 'react';
 
-import './styles/main.scss';
+const styles = require('./styles/main.scss');
 
-import { img1 } from './assets/';
+// Компоненты
+import UserBlock from './components/userblock/index';
+
+// import Parallax from './components/parallax/index';
+
+// import AuthBtn from './components/auth-btn/index';
 
 export default class Root extends React.Component<any, any> {
-    public render () {
-        return(
-            <div>
-                <div>Привет Человек</div>
-                <img src={img1} alt="Чак Ремезов" width={100}/>
-            </div>
-        );
-    }
+  public render () {
+    return (
+      <div className={styles.wrapper}>
+        <div className={styles.mainblock}>
+          <UserBlock/>
+        </div>
+        <p className={styles.copyright}>© Владимир Астахов | создано с любовью в LoftSchool | 2016</p>
+      </div>
+    );
+  }
 }

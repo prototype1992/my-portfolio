@@ -1,0 +1,64 @@
+.userblock {
+  max-width: 380px;
+  opacity: .85;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid red;
+  text-align: center;
+  background-color: #FCFCFC;
+  padding-top: 40px;
+  .userblock__image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  .userblock__name {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 28px;
+    line-height: 28px;
+    color: #455a64;
+    font-weight: 500;
+  }
+  .userblock__info {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #455a64;
+    margin-top: 0;
+    margin-bottom: 34px;
+  }
+}
+
+.usermenu {
+  user-select: none;
+  .usermenu__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: table;
+  }
+  .usermenu__item {
+    display: table-cell;
+    vertical-align: middle;
+    width: 1%;
+    text-align: center;
+    border-left: 2px solid #73c8c0;
+    &:first-child {
+      border-left: 0;
+    }
+  }
+  .usermenu__link {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #00bfa5;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    &:hover {
+      background-color: #009688;
+    }
+  }
+}
