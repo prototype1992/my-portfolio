@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "types": [
+      "node",
+      "react",
+      "react-dom"
+    ],
+    "typeRoots": ["./node_modules/@types", "../node_modules/@types"],
+
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "target": "es5",
+
+    "outDir": "./dist",
+    "lib": [ "es2017", "dom" ],
+
+    "pretty": true,
+    "sourceMap": false,
+    "diagnostics": true,
+    "skipLibCheck": true,
+    "importHelpers": true,
+    "noEmitHelpers": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react"
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "./dist"
+  ]
+}

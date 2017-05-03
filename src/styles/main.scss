@@ -1,0 +1,9 @@
+@import "./var";
+@import "./fonts";
+
+body {
+  background-image: url('../assets/body-bg.jpg');
+  background-size: cover;
+  font-family: 'bernier_shaderegular', sans-serif;
+  font-size: 20px;
+}

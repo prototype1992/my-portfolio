@@ -1,0 +1,29 @@
+# IDE and other env
+
+/.DS_Store/
+/.idea/
+/.vs/
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+.vagrant/
+
+# NODE JS
+
+.env
+.npm
+/logs/
+*.log
+/coverage/
+/.happypack/
+/.nyc_output/
+/.eslintcache/
+/node_modules/
+/jspm_packages/
+/bower_components/
+
+# Project
+
+/src/
