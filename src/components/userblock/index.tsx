@@ -12,7 +12,7 @@ export default class UserBlock extends React.Component<any, any> {
     return (
       <div className={styles.userblock}>
         <img src={images.img2} className={styles.userblock__image}/>
-        <h3 className={styles.userblock__name}>Владимир Астахов</h3>
+        <h3 className={styles.userblock__name}>Шамиль Алисултанов</h3>
         <p className={styles.userblock__info}>Личный сайт веб разработчика</p>
 
         <nav className={styles.usermenu}>

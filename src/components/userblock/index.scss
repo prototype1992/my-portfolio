@@ -3,7 +3,6 @@
   opacity: .85;
   margin-left: auto;
   margin-right: auto;
-  outline: 1px solid red;
   text-align: center;
   background-color: #FCFCFC;
   padding-top: 40px;
@@ -12,6 +11,9 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
   }
   .userblock__name {
     margin-top: 0;
